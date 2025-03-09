@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.039bf95e.css",
-    "main.js": "/my-portfolio/static/js/main.c27eb8b4.js",
+    "main.js": "/my-portfolio/static/js/main.21d60e18.js",
     "static/media/Hello.gif": "/my-portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/Kiran_Virani.pdf": "/my-portfolio/static/media/Kiran_Virani.f5518c4de74242d41a78.pdf",
     "static/media/php.svg": "/my-portfolio/static/media/php.7cdf397b73f2f77a9a970c0e88015f3f.svg",
     "static/media/illustration.svg": "/my-portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/sass-icon.svg": "/my-portfolio/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
+    "static/media/java.svg": "/my-portfolio/static/media/java.d8c58cdc7373d472425036be8b41598e.svg",
+    "static/media/kafka.svg": "/my-portfolio/static/media/kafka.b025c6b68b175bbb2c3be97423bd307f.svg",
     "static/media/kubernetes.svg": "/my-portfolio/static/media/kubernetes.e8795fa38e7f98b0f2d4fdbff54f9560.svg",
     "static/media/node-icon.svg": "/my-portfolio/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
     "static/media/typescript-icon.svg": "/my-portfolio/static/media/typescript-icon.f3bc0fd998dea6b1266965436af97a49.svg",
@@ -22,14 +24,15 @@
     "static/media/html-icon.svg": "/my-portfolio/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
     "static/media/css-icon.svg": "/my-portfolio/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
     "static/media/wordpress.svg": "/my-portfolio/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
+    "static/media/springboot.svg": "/my-portfolio/static/media/springboot.b39d866ef15303bd4182807431613051.svg",
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/my-portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/vue-icon.svg": "/my-portfolio/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
     "main.039bf95e.css.map": "/my-portfolio/static/css/main.039bf95e.css.map",
-    "main.c27eb8b4.js.map": "/my-portfolio/static/js/main.c27eb8b4.js.map"
+    "main.21d60e18.js.map": "/my-portfolio/static/js/main.21d60e18.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.c27eb8b4.js"
+    "static/js/main.21d60e18.js"
   ]
 }
