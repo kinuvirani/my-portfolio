@@ -11,6 +11,62 @@ export function Project() {
       <div className="projects">
 
         <ScrollAnimation animateIn="flipInX">
+  <div className="project">
+    <header>
+      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> 
+        <title>Folder</title> 
+        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> 
+      </svg>
+    </header>
+    <div className="body">
+      <h3> Trading App</h3>
+      <p> Developed a high-performance trading application for processing trade data, increasing positions, and managing transactions. 
+      Utilized Hibernate and JDBC for database operations, RabbitMQ for asynchronous messaging, and MySQL for data persistence. 
+      Optimized trade execution workflow for real-time data updates. Implemented robust error handling and ensured high availability for trading operations.</p>
+    </div>
+    <footer> 
+      <ul className="tech-list"> 
+        <li>Java</li>
+        <li>Hibernate</li> 
+        <li>RabbitMQ</li> 
+        <li>JDBC</li> 
+        <li>MySQL</li> 
+      </ul> 
+    </footer>
+  </div>
+</ScrollAnimation>
+      <ScrollAnimation animateIn="flipInX">
+  <div className="project">
+    <header>
+      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> 
+        <title>Folder</title> 
+        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> 
+      </svg>
+    </header>
+    <div className="body">
+      <h3> Recreational Event App</h3>
+      <p> Designed and developed a recreational event management application that allows users to browse and register for courses. 
+      Integrated Twilio SMS for user notifications and implemented two-factor authentication (2FA) using Twilio OTP. 
+      Secured user authentication with Spring Security and Okta OAuth2. Used SendGrid for email notifications and Kafka for event-driven messaging.
+      Optimized real-time event updates with Artemis message broker.</p>
+    </div>
+    <footer> 
+      <ul className="tech-list"> 
+        <li>Java</li> 
+        <li>PostgreSQL</li> 
+        <li>Spring Boot</li> 
+        <li>Spring JPA</li> 
+        <li>Spring Security</li> 
+        <li>Okta OAuth2</li> 
+        <li>Twilio</li> 
+        <li>SendGrid</li> 
+        <li>Artemis</li>
+      </ul> 
+    </footer>
+  </div>
+</ScrollAnimation>
+
+  <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="211112qqqhttp://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
@@ -29,6 +85,43 @@ access.</p>
             <footer> <ul className="tech-list"> <li>Python</li> <li>Flask</li> <li>GCP</li> <li>Gitlab</li><li>CI/CD</li> <li>Docker</li> </ul> </footer>
           </div>
         </ScrollAnimation>
+
+<ScrollAnimation animateIn="flipInX">
+  <div className="project">
+    <header>
+      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> 
+        <title>Folder</title> 
+        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> 
+      </svg>
+      <div className="project-links">
+        <a href="https://gitlab.com/your-repo/event-app" target="_blank" rel="noreferrer">
+          <img src={githubIcon} alt="Visit site" />
+        </a>
+      </div>
+    </header>
+    <div className="body">
+      <h3> Recreational Event App</h3>
+      <p> Designed and developed a recreational event management application that allows users to browse and register for courses. 
+      Integrated Twilio SMS for user notifications and implemented two-factor authentication (2FA) using Twilio OTP. 
+      Secured user authentication with Spring Security and Okta OAuth2. Used SendGrid for email notifications and Kafka for event-driven messaging.
+      Optimized real-time event updates with Artemis message broker.</p>
+    </div>
+    <footer> 
+      <ul className="tech-list"> 
+        <li>PostgreSQL</li> 
+        <li>Spring Boot</li> 
+        <li>Spring JPA</li> 
+        <li>Spring Security</li> 
+        <li>Okta OAuth2</li> 
+        <li>Twilio</li> 
+        <li>SendGrid</li> 
+        <li>Artemis</li> 
+        <li>Kafka</li> 
+      </ul> 
+    </footer>
+  </div>
+</ScrollAnimation>
+
 
 
         <ScrollAnimation animateIn="flipInX">

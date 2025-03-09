@@ -10,6 +10,9 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import dockerIcon from "../../assets/docker.svg";
 import kubernetesIcon from "../../assets/kubernetes.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import javaIcon from "../../assets/java.svg";
+import springBootIcon from "../../assets/springboot.svg";
+import kafkaIcon from "../../assets/kafka.svg";
 
 export function About() {
   return (
@@ -20,18 +23,27 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Kiran, a Full Stack Developer with a proven track record of building user-centric web applications. My expertise lies in both front-end and back-end development, leveraging React.js to create immersive UIs and Node.js to build robust server-side solutions.
+            Hi there! I'm Kiran, a Full Stack Developer with a proven track record of building user-centric web applications. My expertise spans both front-end and back-end development, leveraging React.js to craft immersive UIs and Node.js for building robust server-side solutions.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            My dedication to streamlining the development lifecycle extends into the realm of DevOps. I possess a strong understanding of CI/CD pipelines, containerization with Docker and Docker Swarm, and container orchestration with Kubernetes. This allows me to ensure seamless deployments and optimize infrastructure for scalability and efficiency.</p>
+            In addition to JavaScript technologies, I specialize in Java, utilizing Spring Boot and Hibernate to develop scalable, high-performance applications. I also have hands-on experience with messaging services like Kafka, ensuring efficient event-driven architectures.
+          </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <p>
+            My dedication to streamlining the development lifecycle extends into DevOps. I have a strong grasp of CI/CD pipelines, containerization with Docker and Docker Swarm, and container orchestration with Kubernetes, enabling seamless deployments and optimized infrastructure.
+          </p>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <p>
             I'm proficient in utilizing cloud platforms like AWS and GCP to deploy and manage web applications effectively.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -85,6 +97,21 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={kubernetesIcon} alt="Kubernetes" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={springBootIcon} alt="Spring Boot" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={javaIcon} alt="Java" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={kafkaIcon} alt="Apache Kafka" />
             </ScrollAnimation>
           </div>
          
